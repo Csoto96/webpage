@@ -1,0 +1,21 @@
+/* CSS Document */
+
+* {margin:0; padding:0;}
+
+body {background-color:#DBDBDB;}
+
+h1 {color:#5000FF;font-size:27px; font-family: 'Risque', cursive;}
+
+#about {width: 600px; padding: 300px;}
+
+#wrapper {width: 1000px; margin: 20px 0 0 100px;}
+
+#name {height:288px; width:432px; float:left;}
+
+#taskbar {height:50px; float:right; margin: 200px 150px 0 0;}
+
+a:link {text-decoration:none; color:#5000ff;}
+
+a:hover { color:#FF7A00;      }
+
+a:visited {color:#5000ff;}
