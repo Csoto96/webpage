@@ -20,6 +20,8 @@ a:link {text-decoration:none; color:#5000FF;}
 
 #taskbar-item a:hover { color:#ff0000;}
 
+.content a:hover { color:#ff0000;}
+
 a:visited {color:#5000FF;}
 
 #projects h1{font-size:36px;}
@@ -42,7 +44,18 @@ a:visited {color:#5000FF;}
 {
     align-self: center;
 }
+.responsive {
+    width: 100%;
+    max-width: 1915px;
+    height: auto;
+  }
 @media (max-width: 600px)
 {
     .right{margin-right:30px;}
+    .card 
+    {
+        display: flex;
+        flex-direction: column;
+        margin-top: 600px;
+    }
 }

@@ -43,7 +43,7 @@ function MM_DW_effectPulsate(obj,method,effect,mode,times,speed)
     <a name="home"></a>
     <div class="top">
         <div id="name">
-            <img src="Other/Name.png" alt="" id="Image10" onMouseOver="MM_swapImage('Image10','','Name_rollover.png',1)" onMouseOut="MM_swapImgRestore()"/>
+            <img src="Other/Name.png" alt="" class="responsive" id="Image10" onMouseOver="MM_swapImage('Image10','','Name_rollover.png',1)" onMouseOut="MM_swapImgRestore()"/>
         </div>
         <div id="taskbar">
             <div id="taskbar-item">
@@ -58,22 +58,29 @@ function MM_DW_effectPulsate(obj,method,effect,mode,times,speed)
         <h1>Projects</h1>
     </div>
     <div id="images"> 
-        <a href="#Gir"><img src="lexer_bg.png" alt="" id="Image8" onMouseOver="MM_swapImage('Image8','','lexer_final.png',1)" onMouseOut="MM_swapImgRestore()"/></a>
-        <a href="#shard"><img src="bash_bg.png" alt="" id="Image1" onMouseOver="MM_swapImage('Image1','','bash_final.png',1)" onMouseOut="MM_swapImgRestore()"/></a>
-        <a href="#gem"><img src="python_bg.png" alt="" id="Image2" onMouseOver="MM_swapImage('Image2','','python_final.png',1)" onMouseOut="MM_swapImgRestore()"/></a>
-        <a href="#mine"><img src="c_bg.png" alt="" id="Image3" onMouseOver="MM_swapImage('Image3','','c_final.png',1)" onMouseOut="MM_swapImgRestore()"/></a>
-        <a href="#ani" ><img src="New thumbs/animations.png" alt="" id="Image11" onMouseOver="MM_swapImage('Image11','','animations_rollover.png',1)" onMouseOut="MM_swapImgRestore()"/></a>
+        <a href="#Gir"><img src="lexer_bg.png" alt="" class="responsive" id="Image8" onMouseOver="MM_swapImage('Image8','','lexer_final.png',1)" onMouseOut="MM_swapImgRestore()"/></a>
+        <a href="#shard"><img src="bash_bg.png" alt="" class="responsive" id="Image1" onMouseOver="MM_swapImage('Image1','','bash_final.png',1)" onMouseOut="MM_swapImgRestore()"/></a>
+        <a href="#gem"><img src="python_bg.png" alt="" class="responsive" id="Image2" onMouseOver="MM_swapImage('Image2','','python_final.png',1)" onMouseOut="MM_swapImgRestore()"/></a>
+        <a href="#mine"><img src="c_bg.png" alt="" class="responsive" id="Image3" onMouseOver="MM_swapImage('Image3','','c_final.png',1)" onMouseOut="MM_swapImgRestore()"/></a>
+        <a href="#ani" ><img src="New thumbs/animations.png" alt="" class="responsive" id="Image11" onMouseOver="MM_swapImage('Image11','','animations_rollover.png',1)" onMouseOut="MM_swapImgRestore()"/></a>
     </div>
     
     <div class="card">
         <a name="Gir"></a>
         <div id="lexer-text"class="content">
-            <h1> For this project I created a lexer in C language. A lexer is a tool that takes a file and using a predetermined set of rules, seperates the entire file in tokens that are labeled. </h1>
-            <a href="#shard"><img src="next.png" alt=""/></a>
-            <a href="#home"><img src="home.png" alt=""/></a>
+            <div>
+                <h1> For this project I created a lexer in C language. A lexer is a tool that takes a file and using a predetermined set of rules, seperates the entire file in tokens that are labeled. </h1>
+            </div>
+            <div class="content">
+                <h1> <a href="https://github.com/CS210-Fall2024/lexer-midterm-project-Csoto96"target="_blank">Click here to go to the lexer Github</a></h1>
+            </div>
+            <div>
+                <a href="#shard"><img src="next.png" alt=""/></a>
+                <a href="#home"><img src="home.png" alt=""/></a>
+            </div>
         </div>
         <div id="lexer"class="content">
-            <img src="Lexeroutput1.png" alt=""/>
+            <img src="Lexeroutput.png" alt=""class="responsive"/>
         </div>
     </div>
     
@@ -81,34 +88,43 @@ function MM_DW_effectPulsate(obj,method,effect,mode,times,speed)
         <a name="shard"></a>
         <div id="junk-text"class="content">
             <h1> This project is a script written in bash. This script functions similar to recycle bin in windows that stores deleted files for possible recovery with list, recover, and empty commands.</h1>
+            <div class="content">
+                <h1> <a href="https://github.com/CS270-Fall2024/pa6-Csoto96"target="_blank">Click here to go to the Bash Github</a></h1>
+            </div>
             <a href="#gem"><img src="next.png" alt=""/></a>
             <a href="#home"><img src="home.png" alt=""/></a>
         </div>
         <div id="junk">
-            <img src="junkoutput1.png" alt=""/>
+            <img src="junkoutput.png" alt=""class="responsive"/>
         </div>
     </div>
     <div class="card">
         <a name="gem"></a>
         <div id="stock-text"class="content">
             <h1> This is a script written in python for a project in class. This script scrapes the yahoo finance website once, then searches for specified stocks and creates a file storing price to compare when called again. </h1>
+            <div class="content">
+                <h1> <a href="https://github.com/CS270-Fall2024/pa7-Csoto96"target="_blank">Click here to go to the Python Github</a></h1>
+            </div>
             <a href="#mine"><img src="next.png" alt=""/></a>
             <a href="#home"><img src="home.png" alt=""/></a>
 
         </div>
         <div id="stock"class="content">
-            <img src="stockoutput1.png" alt=""/>
+            <img src="stockoutput.png" alt=""class="responsive"/>
         </div>
     </div>
     <div class="card">
         <a name="mine"></a>
         <div id="tictac-text"class="content">
             <h1> This project is two assignments combined together to create a game with a client and server. Written in C language, this program uses sockets to create a server and a cilent that plays a game between the two with delays between moves to prevent messages from interferring with each other. </h1>
+            <div class="content">
+                <h1> <a href="https://github.com/CS270-Fall2024/pa8-Csoto96"target="_blank">Click here to go to the Project Github</a></h1>
+            </div>
             <a href="#ani"><img src="next.png" alt=""/></a>
             <a href="#home"><img src="home.png" alt=""/></a>
         </div>
         <div id="tictac"class="content">
-            <img src="tictactoeoutput1.png" alt=""/>
+            <img src="tictactoeoutput.png" alt=""class="responsive"/>
         </div>
     </div>
     <div class="card"></div>
